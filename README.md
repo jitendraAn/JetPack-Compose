@@ -36,3 +36,32 @@ Answer: Both Service and IntentService are used to perform background operations
 9. Question: Explain the concept of Broadcast Receivers in Android.
 
 Answer: Broadcast Receivers are components in Android that enable communication between the system and the application or between different applications. They allow an application to receive and respond to system-wide events or custom-defined events. For example, a BroadcastReceiver can listen for events such as device boot, network connectivity changes, incoming SMS, or custom broadcast messages. It helps in implementing event-driven behavior in Android applications.
+
+10. What is Android Debug Bridge(ADB)?
+    
+Android Debug Bridge (ADB) is a versatile command-line tool that allows communication between a computer and an Android device or emulator. ADB is a part of the Android SDK platform tools and provides a wide range of functionalities for debugging, installing, and managing Android applications.
+
+Here are some key features and uses of ADB:
+
+Debugging: ADB enables developers to debug their Android applications directly on the device or emulator. It allows for monitoring log messages, setting breakpoints, and inspecting variables during debugging.
+Application installation: ADB allows the installation of Android applications (.apk files) onto a device or emulator. This is particularly useful during development and testing, as it provides a convenient way to deploy and update applications.
+File transfer: ADB allows for transferring files between a computer and an Android device. This can be helpful when copying files for testing purposes, accessing device logs, or retrieving application-specific data.
+Shell access: ADB provides a shell interface that allows developers to interact with an Android device's command-line shell. This can be used for executing shell commands, running scripts, and exploring the device's file system.
+Screen capture: ADB offers the ability to capture screenshots from an Android device or emulator, which is useful for documentation, app demonstrations, or bug reporting.
+Performance profiling: ADB provides tools for profiling the performance of Android applications, including CPU usage, memory allocation, and network traffic analysis.
+To use ADB, you must have the Android SDK installed on your computer and the device connected through USB debugging enabled. ADB commands can be executed through your computer's command prompt or terminal.
+
+Overall, ADB is a powerful tool for Android developers, offering a wide range of capabilities to aid in debugging, application management, file transfer, and performance analysis.
+
+11. What are DDMS and AIDL?
+    
+DDMS stands for Dalvik Debug Monitor Server. It is a tool provided by the Android SDK that allows developers to monitor and debug Android applications running on emulators or connected devices.
+
+DDMS provides a graphical interface that enables various debugging features, such as monitoring device and emulator status, examining process and thread information, inspecting logcat messages, taking screenshots, and profiling performance.
+
+AIDL stands for Android Interface Definition Language. It is a language used in Android to define the interface for inter-process communication (IPC) between different components of an application or between different applications.
+
+AIDL allows developers to define methods that can be remotely called by other components or applications, enabling communication and sharing of data across process boundaries. It is commonly used in scenarios where components need to communicate across different application boundaries, such as when using services or implementing client-server architectures in Android.
+
+In summary, DDMS is a debugging tool used to monitor and debug Android applications, while AIDL is a language used to define interfaces for inter-process communication in Android. Both play important roles in the development and debugging of Android applications.
+
